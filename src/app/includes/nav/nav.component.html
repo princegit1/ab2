@@ -1,0 +1,27 @@
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <!-- <li [ngClass]="_active_nav1==false?'':'active'"><a href="">Home</a></li> -->
+        <li class=""><a href="" (click)="sml(this.innerHTML)">home</a></li>
+        <li class=""><a href="about" (click)="sml(this.innerHTML)">about</a></li>
+        <li class=""><a href="test" (click)="sml(this.innerHTML)">test</a></li>
+         
+        <li><a href="test">test</a></li>
+        <li><a href="#">Page 3</a></li>
+      </ul>
+     
+    </div>
+  </div>
+</nav>
+
+
+ <span (click)="sml(this)">home</span>

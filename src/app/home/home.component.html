@@ -1,0 +1,19 @@
+<div class="container">
+<!--    <ul>
+<li *ngFor='let d of d1[0].calendar.match'>
+{{d.venue}} -- {{d.series_short_display_name}} -- {{d.matchresult}}
+
+
+</li></ul>
+
+-->
+
+
+
+<div *ngFor="let d of d1">
+<div *ngFor="let d2 of d">
+  {{ d2 | json}}
+</div>
+</div>
+
+</div>
